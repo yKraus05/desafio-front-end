@@ -144,7 +144,7 @@ botao.addEventListener("click", () => {
     const codigo = codigoInput.value.trim().toUpperCase();
 
     if(codigo === senha){
-        mostrarAviso("Parabéns! Você descobriu o código.", false);
+        mostrarAviso("Parabéns! Você está concorrendo!.", false);
         botao.textContent = "Resgatado";
         botao.disabled = true;
     } else {
